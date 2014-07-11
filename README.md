@@ -1,0 +1,1 @@
+**Typographie extension for Google Chrome**

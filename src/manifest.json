@@ -14,7 +14,12 @@
 	"background": {
 		"scripts": ["background.js"]
 	},
-	"permissions": [ "tabs", "contextMenus" ],
+	"permissions": [
+		"tabs",
+		"contextMenus",
+		"http://*/*",
+		"https://*/*"
+	],
 	"content_scripts": [
 		{
 			"all_frames": true,

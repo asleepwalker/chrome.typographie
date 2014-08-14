@@ -4,7 +4,7 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
 	request.open('POST', 'http://api.typographie.ru/', true);
 	request.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
 
-	if (!active.hasAttribute('contenteditable')) {
+	if (!active.isContentEditable) {
 		request.onload = function() {
 			if (request.status >= 200 && request.status < 400)
 				active.value = JSON.parse(request.responseText).result;

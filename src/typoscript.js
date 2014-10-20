@@ -1,7 +1,7 @@
 chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
 	var active = document.activeElement;
 	request = new XMLHttpRequest();
-	request.open('POST', 'http://api.typographie.ru/', true);
+	request.open('POST', '//api.typographie.ru/', true);
 	request.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
 
 	if (active.isContentEditable) {

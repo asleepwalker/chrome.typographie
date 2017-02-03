@@ -1,0 +1,21 @@
+{
+  "name": "chrome.typographie",
+  "version": "1.3.0",
+  "description": "Typographie extension for Google Chrome",
+  "scripts": {
+    "postinstall": "cp node_modules/typographie/lib/typographie.min.js src/typographie.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asleepwalker/chrome.typographie.git"
+  },
+  "author": "Artyom 'Sleepwalker' Fedosov <mail@asleepwalker.ru>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/asleepwalker/chrome.typographie/issues"
+  },
+  "homepage": "https://github.com/asleepwalker/chrome.typographie",
+  "dependencies": {
+    "typographie": "^1.0.1"
+  }
+}

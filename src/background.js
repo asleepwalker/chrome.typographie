@@ -1,11 +1,11 @@
 /*
-*	Typographie extension for Google Chrome, v1.1
+*	Typographie extension for Google Chrome, v1.3
 *	(c) 2014–2017 Artyom "Sleepwalker" Fedosov <mail@asleepwalker.ru>
 *	https://github.com/asleepwalker/chrome.typographie
 */
 
 chrome.contextMenus.create({
-	"title" : "Typographie!",
+	"title" : "Typographie",
 	"type" : "normal",
 	"contexts" : ["editable"],
 	"onclick" : function() {

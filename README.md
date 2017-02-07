@@ -1,4 +1,4 @@
-#Chrome.Typographie
+#Chrome.Typographie [![Dependency Status](https://gemnasium.com/badges/github.com/asleepwalker/chrome.typographie.svg)](https://gemnasium.com/github.com/asleepwalker/chrome.typographie)
 
 Typographie extension for Google Chrome.
 
